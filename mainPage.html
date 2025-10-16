@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Learners</title>
+</head>
+
+<body>
+    <header>
+        <p><b>The Learners</b></p>
+        <nav id="headernav">
+            <a href="#">Home</a>
+            <a href="#About">About</a>
+            <a href="Courses">Courses</a>
+            <a href="Help">Help</a>
+        </nav>
+        <button class="mainButton">Contact us</button>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Welcome to The Learners Platform</h1>
+            <p>Join a community where learning never stops</p>
+            <button class="mainButton" onclick="showpopup()">Create an Account</button>
+            <nav><a href="">Already have an Account</a></nav>
+
+            <form id="form1">
+                <h2>Create An Account</h2>
+                <br>
+                <label for="email">Enter your Email</label>
+                <input type="email" name="email" id="email" autofocus required>
+                <br>
+                <label for="password">Enter your password</label>
+                <input type="password" name="password" id="password" required>
+                <br><br>
+                <button class="mainButton">Create</button>
+            </form>
+        </section>
+        <section id="About">
+            <div class="about-text">
+            <h2>About The Learners</h2>
+            <p>
+                The Learners is a free educational platform designed to help students and self-learners access quality
+                study materials anytime, anywhere. Our goal is to make learning simple, organized, and easily available
+                for everyone.
+                Here, you’ll find well-structured PDF notes, reference books, and subject-wise resources that make
+                studying more effective and time-saving. Whether you’re revising for exams or exploring new topics, The
+                Learners provides you with everything in one place.
+                We believe that knowledge should be open for all — that’s why our platform is constantly updated with
+                the latest academic materials, curated by teachers and passionate learners.
+                Start your journey today — read, learn, and grow with The Learners! 🌱</p>
+                </div>
+                <div class="about-img">
+                <img src="img.jpg" alt="image"></div>
+        </section>
+        <section id="Help">
+            
+       <div id="div2">
+        <p>Change the theme to dark</p>
+        <button  class="mainButton" onclick="changeTheme()">Change Theme</button>
+        </div> </section>
+    </main>
+    <script src="javaScript.js"></script>
+
+    <footer>
+        <p>© 2025 The Learners. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
